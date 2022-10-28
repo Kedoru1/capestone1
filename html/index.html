@@ -12,11 +12,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="../CSS/Style.css" rel="stylesheet">
+<style>
+	h1 {
+		text-align: center;
+	}
+	
+</style>
 </head> 
 
-<body>
+<body style="background-color: #64d1a4;">
+
 <!--Nav Bar-->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style="background-color: #FFFDD0;">
+	
 	<div class="navbar-header">
 		<a class="navbar-brand" href="#"><i class="fa fa-cube"></i>Caked<b>Up</b></a>  		
 		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -30,16 +38,16 @@
 	<div id="navbarCollapse" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav">
 			<li class="active"><a href="#">Pictures</a></li>
-			<li><a href="#">About</a></li>
 			<li class="dropdown">
 				<a data-toggle="dropdown" class="dropdown-toggle" href="#">Products<b class="caret"></b></a>
 				<ul class="dropdown-menu">					
+					<li><a href="#">Popular Picks</a></li>
 					<li><a href="#">Cakes</a></li>
-					<li><a href="#">Brownies</a></li>
 					<li><a href="#">Cookies</a></li>
 					<li><a href="#">Custom</a></li>
 				</ul>
 			</li>
+			<li><a href="#">About</a></li>
 			<li><a href="#">Contact</a></li>
 			<li><a href="#">Cart</a></li>
 		</ul>
@@ -60,10 +68,82 @@
 					<li><a href="#"><i class="fa fa-sliders"></i> Settings</a></li>
 					<li class="divider"></li>
 					<li><a href="#"><i class="material-icons">&#xE8AC;</i> Logout</a></li>
+					
 				</ul>
 			</li>
 		</ul>
 	</div> 
 </nav>
+<!--Header-->
+	<div>
+		<h1>
+			Popular Picks for New Customers
+		</h1>
+	</div>
+<!--Products-->
+<div>
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img src="../media/Strbry-cheesecake.jpg" alt="Strawberry Cheesecake" style="width:100%">
+				<h2>Strawberry Cheesecake</h2>
+				<p class="price">$19.99</p>
+				<p>Enjoy a delicious homemade strawberry cheesecake made to order. We also sell for $4.99 a slice.</p>
+				<p><button>Add to Cart</button></p>
+			</div>
+	  	</div>
+
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img src="../media/Choco-cookie.jpg" alt="Chocolate Chip Cookie" style="width:100%">
+				<h2>Chocolate Chip Cookie</h2>
+				<p class="price">$9.99</p>
+				<p>Delicious classic chocolate chip cookies! Can be made to order for certain alergies, free of charge. Sold by the dozen.</p>
+				<p><button>Add to Cart</button></p>
+			</div>
+	  	</div>
+
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img src="../media/Keylime.jpeg" alt="Keylime Cheesecake" style="width:100%">
+				<h2>Keylime Cheesecake</h2>
+				<p class="price">$19.99</p>
+				<p>Our unique keylime cheesecake with a gooey top and graham cracker bottom, liked by both adults and children. </p>
+				<p><button>Add to Cart</button></p>
+			</div>
+	  	</div>
+
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<img src="../media/Coco-date.jpg" alt="Chocolate and Date Cookies" style="width:97%">
+				<h2>Chocolate Date Cookies</h2>
+				<p class="price">$9.99</p>
+				<p>Loved by our elderly costomers. Healthy benefits in a small, delicious package. Can be gluten-free.</p>
+				<p><button>Add to Cart</button></p>
+			</div>
+	  	</div>
+	</div>
+<div>
+	<div class="para">
+		<p2>
+			Our goal at Caked Up Bakery is to be a comfort bakery for anyone. We offer reasonable prices, and don't charge you if you have to have specifically made products due to allergies.
+			We believe that everyone should be able to thoroughly enjoy baked goods without all the high price tags, or accessability issues. Please notify our staff if you do have an allergy
+			in-order to avoid any sort of mishaps. We are also on Uber Eats and DoorDash.
+		</p2>
+	</div>
+	<div class="para2">
+		<p3>
+			If none of our existing products are to your liking, you can always contact us via our contact page to custom order a baked good. Pricing will vary depending on the complication and
+			type of backed good you are requesting. The staff member will notify you right away how much your order will cost in-order to keep the transaction completely transparent.
+		</p3>
+	</div>
+</div>
+
+
+
+</div>
 </body>
 </html>                            
